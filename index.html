@@ -1,0 +1,82 @@
+<!DOCTYPE html>
+<html>
+    <head>
+        <style>
+            .box1
+            {
+                display: flex;
+                flex-direction: column;
+                height: 500px;
+                width: 600px;
+                background-color: rgb(86, 86, 171);
+                border-radius: 50px;
+                box-shadow: 2px 5px 5px;  
+                align-items: flex-start; 
+                overflow-y: auto;       
+            }
+            .input
+            {
+                margin-top: 20px;
+                margin-left: 25px;
+                padding-left: 15px;
+                border-radius: 50px;
+                width: 400px;
+                height: 35px;
+                background-color:aliceblue;
+                font-weight: bold;
+                font-size: 15px;
+                color: grey;
+                box-shadow: -2px 2px 3px; 
+
+
+
+            }
+            .button
+            {
+                margin-left: 15px;
+                background-color: white;
+                border-radius: 15px;
+                height: 30px;
+                width: 75px;
+                font-weight: bold;
+                color: black;
+                box-shadow: 2px 3px 5px;
+
+            }
+            .container
+            {
+                 margin: 5px;
+           }
+           .note 
+           {
+            font-weight: bold;
+            font-size: 20px;
+           }
+
+            label{
+            display: flex;
+            align-items: center;
+            gap: 10px;
+            }
+            .check
+            {
+
+            }
+            .done{
+    text-decoration: line-through;
+    color: grey;
+}
+
+        </style>
+    </head>
+    <body>
+        <div id="box1" class = "box1">
+            <div>
+                <input id="input" class ="input" type="text" placeholder="Enter to-do">
+                <button id = "button" class="button">Save</button>
+            </div>
+            <script src="todoscript.js"></script>
+
+        </div>
+    </body>
+</html>
